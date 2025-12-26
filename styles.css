@@ -262,3 +262,183 @@ h1, h2, h3 {
     opacity: 1;
     transform: translateY(0);
 }
+
+/*Privacy Section Styles*/
+.privacy-hero {
+    padding: 80px 0 40px;
+    text-align: center;
+    background-color: #670808;
+    color: white;
+}
+
+.hero-nav .active {
+    background-color: #670808;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 24px;
+}
+
+.privacy-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 64px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.privacy-main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.privacy-content h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #670808;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.privacy-content p,
+.privacy-content ul {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.privacy-content ul {
+    padding-left: 20px;
+}
+
+.privacy-content li {
+    margin-bottom: 8px;
+}
+
+.privacy-back {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.privacy-back .terug-btn {
+    background-color: #333333;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.35s ease;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+
+/* Hover animatie zoals bij Projecten */
+.privacy-back .terug-btn:hover {
+    background-color: #670808;
+    color: #ffffff;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(103, 8, 8, 0.35);
+    border-color: white;
+}
+
+/*Projecten Section Styles*/
+.hero-projecten {
+    background-color: #333333;
+    padding: 0 40px;
+}
+
+.projecten-header h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: #670808;
+    color: #ffffff;
+    font-size: 20px;
+    position: fixed;
+    text-align: right;
+    max-width: 25%;
+    padding: 10px 20px 10px 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,6);
+}
+
+.project-block {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-block.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-block img, .projecblot-block reverse img {
+    height: 800px;
+}
+
+.project-text {
+    max-width: 820px;
+    padding: 70px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    margin-top: 15%;
+}
+
+.project-text h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.project-text p {
+    font-size: 20px;
+}
+
+.colored-bg {
+    background-color: #f5f1ef;
+    color: #333333;
+}
+
+.vormgeving-section {
+    text-align: center;
+}
+
+.vormgeving-section h2 {
+    font-weight: lighter;
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+.vormgeving-section p {
+    font-size: 20px;
+    margin: 0 auto 15px auto;
+
+}
+
+.vormgeving-text {
+    max-width: 100%;
+    padding: 30px;
+    background-color: #670808;
+    color: #ffffff;
+}
+
+.terug-knop {
+    margin: 80px 0 60px 0;
+}
+
+.terug-knop .nav-btn {
+    background-color: #333333;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.35s ease;
+    border: 1px solid transparent;
+    display: inline-block;
+}
+
+.terug-knop .nav-btn:hover {
+    background-color: #670808;
+    color: #ffffff;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(103, 8, 8, 0.35);
+    border-color: white;
+}
