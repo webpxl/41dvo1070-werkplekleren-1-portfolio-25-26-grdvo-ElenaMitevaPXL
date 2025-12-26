@@ -126,3 +126,139 @@ h1, h2, h3 {
     transform: scale(1.15);
     box-shadow: 0 6px 16px rgba(103, 8, 8, 0.4);
 }
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 150px 40px;
+}
+
+.intro-image img {
+    width: 550px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+
+.intro-text {
+    max-width: 550px;
+}
+
+.intro-text h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.designer-section {
+    background-color: #670808;
+    color: #ffffff;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.designer-section h2 {
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.designer-section p {
+    max-width: 800px;
+    margin: 0 auto 15px auto;
+    font-size: 20px;
+}
+
+.funfact-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.funfact-section h2 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.funfact-section p {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    font-size: 20px;
+}
+
+.funfact-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 80px;
+}
+
+.funfact-gallery img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.footer-contact {
+    background-color: #670808;
+    color: #ffffff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left h2 {
+    margin: 30px 0 0 150%;
+    font-size: 90px;
+}
+
+.footer-divider {
+    width: 2px;
+    height: 130px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.footer-right {
+    margin-top: 50px;
+    margin-right: 30%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-icon svg {
+    width: 22px;
+    height: 22px;
+    stroke: white;
+}
+
+.intro-section,
+.designer-section,
+.funfact-section,
+.footer-contact {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
