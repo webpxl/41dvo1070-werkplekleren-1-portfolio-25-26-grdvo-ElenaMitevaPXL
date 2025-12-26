@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.hero {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 0px 40px 90px 40px;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero-logo {
+    height: 150px;
+    width: auto;
+}
+
+.hero-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1.5px solid #ffffff;
+    transition: 0.3s;
+}
+
+.hero-nav a:hover,
+.hero-nav a.active {
+    background-color: #670808;
+    border-color: #670808;
+}
+
+.nav-btn {
+    position: relative;
+    padding: 10px 24px;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.nav-btn:hover {
+    background-color: #670808;
+    box-shadow: 0 0 12px rgba(103, 8, 8, 0.6);
+    transform: translateY(-2px);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.hero-image img {
+    max-width: 480px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.hero-text {
+    max-width: 400px;
+}
+
+.hero-title {
+    font-family: 'Great Vibes', cursive;
+    font-weight: lighter;
+    font-size: 150px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.hero-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 33px;
+    color: #ffffff;
+}
+
+.hero-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.35s ease;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.hero-socials a:hover {
+    background-color: #670808;
+    color: #ffffff;
+    transform: scale(1.15);
+    box-shadow: 0 6px 16px rgba(103, 8, 8, 0.4);
+}
