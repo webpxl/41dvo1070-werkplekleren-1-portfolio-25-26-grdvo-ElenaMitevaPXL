@@ -1,6 +1,4 @@
-
-<script>
-    document.querySelectorAll('.hover-card').forEach(card => {
+document.querySelectorAll('.hover-card').forEach(card => {
     card.addEventListener('click', () => {
         card.classList.toggle('open');
         const text = card.querySelector('.card-hidden-text');
@@ -13,5 +11,4 @@
         }
     });
 });
-</script>
 
