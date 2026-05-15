@@ -518,7 +518,6 @@ h1, h2, h3 {
     transform: translateY(-3px);
 }
 
-
 /* --- Mobiel --- */
 @media (max-width: 600px) {
 
@@ -702,6 +701,7 @@ h1, h2, h3 {
         height: 45px;
     }
 }
+
 
 /* --- Tablet --- */
 @media (max-width: 900px) {
